@@ -1,0 +1,112 @@
+
+
+.contornogestionadmin{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    height: 100%;
+    margin: 0 ;
+    background-color: #D8D8D8;   
+}
+
+.contornoopciones{
+    width: 95%;
+    display: flex;
+    background-color: #D8D8D8;
+    height: 10%;
+    align-items: center;
+    padding-left: 3%;
+}
+
+.contornodatos{
+    display: flex;
+    width: 100%;
+    height: 90%;
+    padding-top: 1%;
+    padding-left: 2.5%;
+    flex-direction: column;
+}
+
+.Tablaadmins{
+    height: 95%;
+    width: 95%;
+    overflow: scroll;
+    
+    
+}
+
+table{
+    width: 100%;
+    height: auto;
+    text-align: center;
+   
+}
+::-webkit-scrollbar{
+    display: none;
+}
+th {     
+    font-size: 100%;     
+    padding: 0.5%;     
+    background: #28A047;
+    border: 1px solid #D8D8D8; 
+}
+
+td {     
+    font-size: 100%;     
+    padding: 0.5%; 
+    background: white;
+    border: 1px solid #D8D8D8; 
+}
+
+
+
+.tdadmin{
+    background-color: #28A047;
+    
+}
+
+.agregaradmin{
+    width: 5%;
+    height: 50%;
+}
+
+.botoneeditadmin{
+    width: 90%;
+    height: 100%;
+    background-color: #28A047;
+    border: none;
+}
+
+.tdadminforma{
+    width: 10%;
+}
+
+.tdadminforma{
+    background-color: #28A047;
+}
+.subirforma{
+    
+    width: 33%;
+    background-color: #28A047;
+}
+
+.Atips{
+    width: 8%;
+    background-color: #28A047;
+}
+@media (max-width: 700px) { 
+
+    .buttonadmin{
+        font-size: 90%;
+    }
+    .textoFincaAgregar{
+        margin-left: 5%;
+        font-size: 110%;
+        margin: 0;
+        width: 90%;
+    }
+    
+    .contornoopciones{
+        padding: 0;
+    }
+}

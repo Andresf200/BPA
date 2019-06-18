@@ -1,0 +1,88 @@
+
+.contenenidoFormatos{
+    width: 99%;
+    height: 95%;
+    padding-top: 0.6%;
+    display: flex;
+    display: flex;
+    flex-wrap: nowrap;
+    overflow-x: auto;
+    flex-direction: row;
+    
+ 
+}
+
+.formatoscajas{
+    margin: 0.5%;
+    padding: 0.2%;
+    display: flex;
+    flex-direction: column;
+    width: 50%;
+    height: 95%;
+    border: black solid 2px;
+    background-color: #D8D8D8;
+    flex: 0 0 auto;
+    
+    }
+
+.Titulocaja{
+    width: 100%;
+    height: 20%;
+    text-align: center;
+    align-items: center;
+}
+
+.contenidoformatocaja{
+    display: flex;
+    padding: 2%;
+    width: 100%;
+    height: 85%;
+    align-content: center;
+}
+.contenidoformatoimg{
+    height: 100%;
+    width: 95%;
+    margin: 0;
+}
+
+.contenidoBoton{
+    display: flex;
+    flex-direction: row;
+    padding: 1%;
+    height: 6%;
+}
+
+
+
+
+.Titulocaja{
+    padding: 0.1%;
+    width: 100%;
+    height: 8%;
+    text-align: center;
+    align-content: center;
+    align-items: center;
+    
+}
+
+.contenidoformatocaja{
+    
+    width: 100%;
+    height: 92%;
+}
+
+@media (max-width: 700px){
+    
+        .contenenidoFormatos{
+            flex-direction: column;
+            height: 100%;
+        }
+    
+        
+        .formatoscajas{
+            flex-direction: column;
+            width: 95%;
+            height: 98%;
+        }
+    
+}

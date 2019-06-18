@@ -1,0 +1,194 @@
+.contenedorFincaeventos{
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    background-color: #28A047;
+    
+    
+}
+
+
+.eventos{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    border-radius: 2px;
+    background-color: white;
+}
+
+.eventos1a{
+    
+    width: 80%;
+    height: 80%;
+    display: flex;
+    flex-direction: column;
+    border-radius: 2px;
+    background-color: white;
+    border: black solid 2px;
+    margin: 2%;
+    margin-left: 10%;
+    
+}
+
+.tituloevento{
+    display: flex;
+    align-items: center;
+    height: 10%;
+    background-color: #28A047;
+    justify-content: center;
+    border: black solid 1px;
+}
+
+
+.eventos1{
+    display: flex;
+    justify-content: center;
+    height: 12%;
+    border-radius: 2px;
+    border: black solid 2px;
+    align-items: center;
+    color: #28A047;
+    font-size: 150%;
+    background-color: #D8D8D8;
+}
+
+.eventos2{
+    display: flex;
+    flex-direction: column;
+    height: 100%;
+    border-radius: 2px;
+    padding: 0.5%;
+    flex-wrap: wrap;
+    overflow-x: auto;
+    flex-direction: row;
+    background-color: #D8D8D8;
+}
+
+.evento3{
+    display: flex;
+    justify-content:  flex-end;
+    background-color: #D8D8D8;
+   
+}
+
+.eventos4{
+    
+    display: flex;
+    flex-direction: column;
+    height: 100%;
+    border-radius: 2px;
+    padding: 0.5%;
+}
+
+.crearEvento{
+    display: flex;
+    height: 5%;
+    align-items: center;
+    padding-left: 3%;
+    background-color: #D8D8D8;
+}
+
+.datosEvento{
+    
+    width: 80%;
+    height: 80%;
+    display: flex;
+    flex-direction: column;
+    border-radius: 2px;
+    background-color: white;
+    border: black solid 2px;
+    margin: 2%;
+    margin-left: 10%;
+    background-color: #D8D8D8;
+}
+
+.ingresarDatoevento{
+    padding: 0.5%;
+    margin-top: 1.5%;
+    width: 20%;
+    height: 80%;
+}
+.ingresarDatoeventoD{
+        width: 23%; 
+        
+    }
+.inputEvento{
+    padding-top: 1%;
+    
+}
+
+.botoninputevento{
+    width: 20%;
+    padding: 1%;
+    margin-top: 1.5%;
+    background-color: #28A047;
+    border: none;
+}
+.volverevento{
+    background-color: #28A047;
+    padding: 0.5%;
+    width: 5%;
+    border: none;
+}
+
+.volverevento2{
+    background-color: #28A047;
+    padding: 0.5%;
+    width: 5%;
+    border: none;
+}
+
+.label{
+    margin: 0;
+}
+
+@media (max-width: 700px){
+    
+    .eventos1a{
+        width: 90%;
+        height: 90%;
+        margin-left: 5%;
+    }
+    
+    .eventos2{
+        height: 90%;
+        flex-direction: column;
+
+    }
+    
+    .crearEvento{
+        height: 10%;
+    }
+    
+    .textoagregarEvento{
+        font-size: 100%;    
+    }
+    
+    .datosEvento{
+        width: 90%;
+        height: 90%;
+        margin: 2%;
+        margin-left: 5%; 
+    }
+    
+    .volverevento2{   
+        padding: 1%;
+        width: 20%;
+    }
+    
+    .ingresarDatoeventoD{
+        width: 70%; 
+        padding: 3%;
+        margin-top: 5%;
+    }
+    
+    .ingresarDatoevento{
+        padding: 3%;
+        margin-top: 3%;
+        width: 70%;
+        
+    }
+    .nombrefinca{
+        font-size: 150%;
+    }
+}

@@ -1,0 +1,88 @@
+.contornocrearusuario{
+    display: flex;
+    width: 100%;
+    height: 100%;
+    background-color: white;
+    padding-top: 2%;
+    padding-left: 5%;
+    background-color: #D8D8D8;
+}
+
+.contornofromusuario{
+    height: 90%;
+    width: 90%;
+    background-color: white;
+    border-radius: 2px;
+    border: black solid 2px;
+}
+
+.titulofromusuario{
+    display: flex;
+    width: 100%;
+    background-color: #28A047;
+    height: 15%;
+    border: black solid 2px;
+    color: white;
+    align-items: center;
+    justify-content: center;
+    font-size: 150%;
+}
+
+.datosfromusuario{
+    display: flex;
+    width: 100%;
+    height: 85%;
+    flex-direction: column;
+    
+}
+
+.titulocrearadmin{
+    margin: 1%;
+    font-size: 120%;
+}
+
+.inputfromusuario{
+    width: 30%;
+    height: 5%;
+    margin: 0;
+    padding: 0.5%;
+    border: 2px solid black;
+    text-align: center;
+    
+   
+}
+
+.botonfromusuario{
+    width: 10%;
+    height: 8%;
+    margin: 0;
+    padding: 0.5%;
+    background-color: #28A047;
+}
+
+.label{
+    margin: 0;
+}
+
+@media (max-width: 700px) { 
+
+    
+    .tituloadminpaginas{
+        font-size: 100%;
+    }
+    
+    .titulocrearusuario{
+        font-size: 100%;
+    }
+    
+    .inputfromusuario{
+        width: 70%;
+        margin: 2%;
+    }
+    
+    .botonfromusuario{
+        width: 40%; 
+        margin: 2%;
+    }
+    
+}

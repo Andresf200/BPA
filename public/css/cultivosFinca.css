@@ -1,0 +1,187 @@
+.contenedorFincacultivos{
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    background-color: #28A047;
+    
+    
+}
+
+
+.cultivos{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    border-radius: 2px;
+    background-color: white;
+}
+
+.cultivos1a{
+    
+    width: 80%;
+    height: 80%;
+    display: flex;
+    flex-direction: column;
+    border-radius: 2px;
+    background-color: white;
+    border: black solid 2px;
+    margin: 2%;
+    margin-left: 10%;
+    
+}
+
+.titulocultivos{
+    display: flex;
+    align-items: center;
+    height: 10%;
+    background-color: #28A047;
+    justify-content: center;
+    border: black solid 1px;
+}
+
+
+.cultivos1{
+    display: flex;
+    justify-content: center;
+    height: 12%;
+    border-radius: 2px;
+    border: black solid 2px;
+    align-items: center;
+    color: #28A047;
+    font-size: 150%;
+    background-color: #D8D8D8;
+}
+
+.cultivos2{
+    display: flex;
+    flex-direction: column;
+    height: 100%;
+    border-radius: 2px;
+    padding: 0.5%;
+    flex-wrap: wrap;
+    overflow-x: auto;
+    flex-direction: row;
+    background-color: #D8D8D8;
+}
+
+.cultivo3{
+    display: flex;
+    justify-content:  flex-end;
+    background-color: #D8D8D8;
+   
+}
+
+.cultivos4{
+    
+    display: flex;
+    flex-direction: column;
+    height: 100%;
+    border-radius: 2px;
+    padding: 0.5%;
+}
+
+.crearCultivo{
+    display: flex;
+    height: 5%;
+    align-items: center;
+    padding-left: 3%;
+    background-color: #D8D8D8;
+}
+
+.datosCultivo{
+    
+    width: 80%;
+    height: 80%;
+    display: flex;
+    flex-direction: column;
+    border-radius: 2px;
+    background-color: white;
+    border: black solid 2px;
+    margin: 2%;
+    margin-left: 10%;
+    background-color: #D8D8D8;
+}
+
+.volvercultivo{
+    background-color: #28A047;
+    padding: 0.5%;
+    width: 8%;
+    border: none;
+    margin: 1%;
+}
+.inputCultivo{
+    
+    padding-top: 5%;
+}
+
+.ingresarDatocultivoD{
+        width: 26.5%; 
+        
+        margin-top: 2%;
+    }
+
+.ingresarDatocultivo{
+        padding: 1%;
+        margin-top: 1%;
+        width: 25%;
+        
+    }
+
+.label{
+    margin: 0;
+}
+
+@media (max-width: 700px){
+    
+    .cultivos1a{
+        width: 90%;
+        height: 90%;
+        margin-left: 5%;
+    }
+    
+    .cultivos2{
+        height: 90%;
+        flex-direction: column;
+
+    }
+    
+    .crearCultivo{
+        height: 10%;
+    }
+    
+    .textoagregarCultivo{
+        font-size: 100%;    
+    }
+    
+    .datosCultivo{
+        width: 90%;
+        height: 90%;
+        margin: 2%;
+        margin-left: 5%; 
+    }
+  
+    .volvercultivo{   
+        padding: 1%;
+        width: 20%;
+    }
+    
+    .ingresarDatocultivoD{
+        width: 70%; 
+        padding: 3%;
+        margin-top: 8%;
+    }
+    
+    .ingresarDatocultivo{
+        padding: 3%;
+        margin-top: 8%;
+        width: 70%;
+        
+    }
+    
+    .nombrefinca{
+        font-size: 150%;
+    }
+    
+    
+    
+}

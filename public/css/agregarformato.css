@@ -1,0 +1,97 @@
+.contornocrearformato{
+    display: flex;
+    width: 100%;
+    height: 100%;
+    background-color: white;
+    padding-top: 2%;
+    padding-left: 8%;
+    background-color: #D8D8D8;
+}
+
+.contornofromcrearformato{
+    height: 90%;
+    width: 90%;
+    background-color: white;
+    border-radius: 2px;
+    border: black solid 2px;
+}
+
+.titulofromcrearformato{
+    display: flex;
+    width: 100%;
+    background-color: #28A047;
+    height: 15%;
+    border: black solid 2px;
+    color: white;
+    align-items: center;
+    justify-content: center;
+    font-size: 150%;
+}
+
+.datosfromcrearformato{
+    display: flex;
+    width: 100%;
+    height: 85%;
+    flex-direction: column;
+    padding-top: 3%;
+    
+}
+
+.inputfromcrearformato{
+    width: 30%;
+    height: 15%;
+    padding: 0.5%;
+    border: 2px solid black;
+    text-align: center;
+    margin: 0.5%;
+    margin-top: 2%;
+   
+}
+.textfromcrearformato{
+    width: 30%;
+    height: 100%;
+    padding: 0.5%;
+    border: 2px solid black;
+    text-align: center;
+    margin: 0.5%;
+    margin-top: 2.5%;
+    
+}
+
+
+
+.botonfromcrearformato{
+    width: 10%;
+    height: 5%;
+    padding: 0.5%;
+    margin: 0.8%;
+    margin-top: 2%;
+    background-color: #28A047;
+}
+
+@media (max-width: 700px) { 
+
+    
+    .tituloadminpaginas{
+        font-size: 100%;
+    }
+    
+    .titulocrearformato{
+        font-size: 120%;
+    }
+    
+    .inputfromcrearformato{
+        width: 70%;
+        margin: 3%;
+    }
+    
+    .botonfromcrearformato{
+        width: 40%; 
+        margin: 2%;
+    }
+    
+    .textfromcrearformato{
+        width: 70%;
+        margin: 3%;
+    }
+}

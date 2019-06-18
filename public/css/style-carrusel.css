@@ -1,0 +1,94 @@
+.carrusel{
+    display: flex;
+    align-items: center;
+    justify-content: center;        
+}
+.container{
+    width: 35%;
+    height: 20rem;
+    position: relative;
+    margin: 0 auto;
+    perspective: 800px;
+
+}
+#carousel {
+    width: 100%;
+    height: 100%;
+    position: absolute;
+            transform: translateZ( -288px );
+            transform-style: preserve-3d;
+            transition: transform 1s;
+  }
+  #carousel p {
+    display: block;
+    position: absolute;
+    width: 80%;
+    height: 80%;
+    left: 10px;
+    top: 10px;
+    border: 2px solid rgba(   0, 0, 0, 0.8 );
+    color: black;
+    text-align: center;
+    background-color: #28A047;
+    display: flex;
+    align-items: center;
+
+  }
+  #carousel p:nth-child(1) {
+    transform: rotateY( 0deg ) translateZ( 288px );
+}
+#carousel p:nth-child(2) {
+    transform: rotateY( 40deg ) translateZ( 288px );
+}
+#carousel p:nth-child(3) {
+    transform: rotateY( 80deg ) translateZ( 288px );
+}
+#carousel p:nth-child(4) {
+    transform: rotateY( 120deg ) translateZ( 288px );
+}
+#carousel  p:nth-child(5) {
+    transform: rotateY( 160deg ) translateZ( 288px );
+}
+#carousel  p:nth-child(6) {
+    transform: rotateY( 200deg ) translateZ( 288px );
+}
+#carousel  p:nth-child(7) {
+    transform: rotateY( 240deg ) translateZ( 288px );
+}
+#carousel  p:nth-child(8) {
+    transform: rotateY( 280deg ) translateZ( 288px );
+}
+#carousel p:nth-child(9) {
+    transform: rotateY( 320deg ) translateZ( 288px );
+}
+#carousel {
+    animation: rotateInY 40s infinite linear;
+}
+@keyframes rotateInY {
+0%   { transform: translateZ(-288px) rotateY(0deg);   }
+100% { transform: translateZ(-288px) rotateY(360deg);    }
+}
+
+@media (max-width: 1024px){
+
+    .container{
+        width: 40%;
+          height: 17rem;
+          position: relative;
+          margin: 0 auto;
+          perspective: 400px;
+    }
+      #carousel p {
+        display: block;
+        position: absolute;
+        width: 80%;
+        height: 80%;
+        left: 10px;
+        top: 10px;
+        border: 2px solid rgba(   0, 0, 0, 0.8 );
+        color: black;
+        text-align: center;
+        background-color: gray;
+    
+      }    
+}

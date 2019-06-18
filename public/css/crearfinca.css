@@ -1,0 +1,116 @@
+.finca3{
+    display: flex;
+    flex-direction: column;
+    height: 81%;
+    border-radius: 2px;
+    border: black solid 1px;
+}
+
+.crearFinca{
+    display: flex;
+    height: 5%;
+    align-items: center;
+    padding-left: 3%;
+}
+
+
+
+.fincasregistradas{
+    display: flex;
+    height: 95%;
+    border: black solid 2px;
+    padding: 0.5;
+    background-color: #D8D8D8;
+    margin-top: 0.1%;
+    flex-wrap: wrap;
+    overflow-x: auto;
+    flex-direction: row;
+}
+
+
+
+
+.registrarFinca{
+    display: flex;
+    align-items: center;
+    align-content: center;
+    height: 88%;
+    border-radius: 2px;
+    
+    
+    
+}
+
+.datosFinca{
+    display: flex;
+    flex-direction: column;
+    height: 90%;
+    width: 50%;
+    border: black solid 2px;
+    background-color: #D8D8D8;
+    margin-left: 25%;
+}
+
+.tituloFinca{
+    display: flex;
+    height: 25%;
+    padding: 1%;
+    align-content: center;
+    flex-direction: column;
+    
+}
+
+.inputFinca{
+    
+    padding: 2%;
+    height: 70%;
+    
+}
+
+.titulocrearfinca{
+    margin: 0;
+    font-size: 200%;
+}
+
+.ingresarDatos{
+    margin: 1%;
+    height: 1.5rem;
+    width: 50%;
+}
+
+.botonesinputfinca{
+    margin: 2%;
+    margin-bottom: 2%;
+    margin-top: 3%;
+    padding: 1%;
+    width: 20%;
+    background-color: white;
+}
+
+.label{
+     margin: 0;
+}
+
+@media (max-width: 700px) { 
+
+    
+    .crearFinca{
+        margin-top: 5%;
+    }
+
+    .textoFincaAgregar{
+        margin-left: 5%;
+        font-size: 120%;
+    }
+
+    .datosFinca{ 
+        height: 90%;
+        width: 90%;
+        margin-left: 5%;
+    }
+    
+    .botonesinputfinca{ 
+        width: 30%;
+    }
+
+}

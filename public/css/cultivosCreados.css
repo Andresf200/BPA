@@ -1,0 +1,56 @@
+
+
+.contenidocultivocaja{
+    display: flex;
+    width: 100%;
+    height: 40%;
+}
+
+.cultivocajas{
+    margin: 0.6%;
+    margin-left: 12.5%;
+    padding: 0.2%;
+    display: flex;
+    flex-direction: column;
+    width: 30%;
+    height: 40%;
+    border: black solid 2px;
+    background-color: white;
+    flex: 0 0 auto;
+}
+.Titulocajacultivo{
+    padding: 0.1%;
+    width: 100%;
+    height: 45%;
+    text-align: center;
+    align-content: center;
+    align-items: center;
+    
+}
+.datoscultivocaja{
+    display: flex;
+    flex-direction: row;
+    height: 30%;
+
+}
+
+.datocultivo{
+    width: 50%;
+   
+}
+.BotonCulti{
+    width: 50%;
+}
+    
+@media (max-width: 700px) {
+        
+        .cultivocajas{
+            margin: 1.5%;
+            margin-left: 9%;
+            width: 80%;
+        }
+        
+        
+    }
+    
+    
